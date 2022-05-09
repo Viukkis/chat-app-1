@@ -58,13 +58,3 @@ ReactDOM.render(<AppRouter />, document.getElementById('root'));
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-
-/*  <Switch>
-            <Route path="/" exact component={App} />
-            <Route path="/login" exact component={Login} />
-            <Route path="/register" exact component={Register} />
-          </Switch>
-        </div>
-      </Router>
-      
-      */
