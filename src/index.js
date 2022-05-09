@@ -52,10 +52,6 @@ class AppRouter extends React.Component{
 }
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'));
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root');
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
