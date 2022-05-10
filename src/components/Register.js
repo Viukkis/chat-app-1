@@ -39,19 +39,25 @@ class Register extends React.Component {
                 <h1>Register your account</h1>
                 {error && <p className="error-message">{error.message}</p>}
                 <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="username">Username</label>
-                    <input type="text" name="username" id="username" value={username} onChange={this.handleChange}></input>
-                    <label htmlFor="email">Email address</label>
-                    <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
-                    <label htmlFor="password">Choose a password</label>
-                    <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        value={password}
-                        onChange={this.handleChange}
-                    >
-                    </input>
+                    <div>
+                        <label htmlFor="username">Username</label>
+                        <input type="text" name="username" id="username" value={username} onChange={this.handleChange}></input>
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email address</label>
+                        <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
+                    </div>
+                    <div>
+                        <label htmlFor="password">Choose a password</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            value={password}
+                            onChange={this.handleChange}
+                        >
+                        </input>
+                    </div>
                     <button className="submit">Get started</button>
                     <p>Already have an account? <Link className="login-btn" to="/login">Login here</Link></p>
                 </form>

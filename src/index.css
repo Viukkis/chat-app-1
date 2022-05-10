@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fbd08a;
 }
 
 code {
@@ -13,13 +12,13 @@ code {
 }
 
 a {
-  color: seagreen;
+  color: #ed303c;
   text-decoration: none;
   transition: all .25s ease;
 }
 
 a:hover {
-  color: lightgreen;
+  color: #ff9c5b;
   text-decoration: underline;
 }
 

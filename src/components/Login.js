@@ -32,11 +32,14 @@ render() {
     return (
         <div className="auth-container">
             <h1>Login</h1>
-            <p>Login to access your account</p>
+            <p>Login to access your account.</p>
             {error && <p className="error-message">{error.message}</p>}
             <form onSubmit={this.handleSubmit}>
+                <div>
                 <label htmlFor="email">Email address</label>
                 <input type="text" name="email" id="email" value={email} onChange={this.handleChange}></input>
+                </div>
+                <div>
                 <label htmlFor="password">Password</label>
                 <input
                     type="password"
@@ -46,6 +49,7 @@ render() {
                     onChange={this.handleChange}
                     >
                 </input>
+                </div>
                 <button className="submit">Login</button>
                 <p>Don't have an account? <Link className="login-btn" to="/register">Register here</Link>.</p>
             </form>
