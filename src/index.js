@@ -36,7 +36,9 @@ class AppRouter extends React.Component{
                 <Button>
                 <Link to="/login">Login</Link>
                 </Button>
+                <Button>
                 <Link to="/register">Register</Link>
+                </Button>
               </div>
             }
             {this.state.user &&
