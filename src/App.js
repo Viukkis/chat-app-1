@@ -16,7 +16,7 @@ class App extends React.Component {
     this.setState({[event.target.name]: event.target.value });
   };
 
-  onSubit = (event) => {
+  onSubmit = (event) => {
     event.preventDefault();
     if(this.state.message !== ''){
       const chatRef = firebase.database().ref('general');
